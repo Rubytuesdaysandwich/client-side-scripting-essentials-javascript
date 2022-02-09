@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+    height: 100vh;
+}
+
+.flipped {
+    transform: scaleX(-1);
+}
+
+.items {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.item {
+    text-align: center;
+    width: 250px;
+}
+
+.item-img {
+    height: 203px;
+    padding: 10px;
+}
+
+.items img {
+    width: 100%;
+    position: relative;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+.page-item {
+    background-color: green;
+    text-align: center;
+}

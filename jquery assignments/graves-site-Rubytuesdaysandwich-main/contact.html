@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="BATC" />
+    <title>The Grave Site</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/w3.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#openModal">Login</a></li>
+          </ul>
+        </nav>
+        <div id="openModal" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <!-- content for Modal -->
+            <div class="login">
+              <h2>Sign in</h2>
+              <form action="" name="sign-in">
+                <input
+                  class="email"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <input
+                  class="password"
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                />
+                <input type="button" value="Login" />
+              </form>
+            </div>
+            <!-- end login -->
+          </div>
+          <!-- end close -->
+        </div>
+        <!-- end openModal -->
+      </div>
+      <!-- end navbar -->
+    </header>
+
+    <!--  =========== Hero ============= -->
+
+    <section id="contactHero"></section>
+
+    <!---- ==== Description ====== ----->
+
+    <div class="description">
+      <h2>Contact Us</h2>
+      <hr />
+      <div id="messageInvite">
+        <h3>
+          Send us a message and we will get back to you as soon as we can!
+        </h3>
+      </div>
+    </div>
+
+    <!--------- == Message Forms == ---->
+
+    <div id="contactUs">
+      <form action="" name="contact">
+        <div id="formContainer">
+          <div>
+            <input
+              class="full-name"
+              type="text"
+              name="name"
+              placeholder="Full Name"
+            />
+          </div>
+          <div>
+            <input
+              class="subject"
+              type="text"
+              name="subject"
+              placeholder="Subject"
+            />
+          </div>
+          <div>
+            <input
+              class="phone-number"
+              type="text"
+              name="phone"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div>
+            <input
+              class="email-adress"
+              type="email"
+              name="emailAddress"
+              placeholder="Email Address"
+            />
+          </div>
+        </div>
+        <h4>Message</h4>
+        <div id="messageDiv">
+          <input id="message" type="text" name="message" /><br />
+        </div>
+        <input
+          type="submit"
+          class="button_next"
+          name="contact_submit"
+          value="Send Message"
+        />
+      </form>
+    </div>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/form-validation.js"></script>
+  <script src="js/borderscript.js"></script>
+  <script src="js/imagegrowscript.js"></script>
+</html>
